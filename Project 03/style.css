@@ -1,0 +1,139 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+}
+.navbar-container div img {
+  margin-top: 35px;
+  margin-left: 50px;
+  width: 60%;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-container div ul {
+  display: flex;
+  gap: 20px;
+}
+.navbar-container div ul li:nth-child(1) {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  font-size: 17px;
+}
+.navbar-container div ul li {
+  list-style: none;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.navbar-container .button-group {
+  display: flex;
+  gap: 1px;
+  margin-top: 50px;
+}
+.navbar-container .button-group .search-icon svg {
+  width: 60%;
+}
+.button-group div button {
+  padding: 3px 30px;
+  border: 2px solid #000;
+  border-radius: 12px;
+  background-color: #fff;
+  font-size: 15px;
+  color: grey;
+  font-family: "Poppins", sans-serif;
+}
+section .hero-container {
+  display: flex;
+  gap: 10px;
+}
+section .hero-container .square img {
+  width: 100%;
+  position: relative;
+  top: 30vh;
+  margin-left: 230px;
+}
+.hero-container .star:nth-child(3) {
+  width: 5%;
+  position: absolute;
+  left: 160vh;
+  top: 25vh;
+}
+.hero-container .star:nth-child(2) {
+  width: 4%;
+  position: absolute;
+  top: 84vh;
+  left: 55vh;
+}
+.hero-container .star img {
+  width: 80%;
+  position: relative;
+  left: 40vh;
+}
+.hero-container .globe img {
+  width: 80%;
+  margin-left: 50px;
+  position: relative;
+  left: 63vh;
+  top: 8vh;
+}
+section .hero-container > div img {
+  width: 120%;
+  position: relative;
+  top: 9vh;
+  right: 38vh;
+}
+.hero-container div > .icons {
+  width: 20%;
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  position: relative;
+  bottom: 12vh;
+  left: 73vh;
+}
+.hero-container-right > h1 {
+  font-size: 45px;
+  width: 650px;
+  margin-top: 150px;
+  margin-right: 30px;
+}
+.hero-container-right > p {
+  font-size: 11px;
+  text-align: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: "Poppins", sans-serif;
+  color: grey;
+}
+.hero-container-right div {
+  margin-top: 40px;
+}
+div > .button-email {
+  color: grey;
+  border: 1px solid #000;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 3px 15px;
+  margin-left: 150px;
+}
+div > .button-join {
+  background-color: #000;
+  border-radius: 8px;
+  padding: 5px 5px;
+  border-style: none;
+  color: #fff;
+  font-size: 13px;
+  margin-left: 3px;
+  text-align: center;
+}
+div > h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  margin-left: 240px;
+  color: gray;
+}
